@@ -1,0 +1,44 @@
+/* Welcome UI Styling */
+.welcome-section {
+    background-image: linear-gradient(rgba(34,34,34,0.7), rgba(34,34,34,0.7)), url('../assets/images/wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+ 
+  .welcome-content {
+    max-width: 800px;
+    padding: 20px;
+  }
+ 
+  .welcome-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+ 
+  .welcome-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+ 
+  .explore-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #48f542;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+ 
+  .explore-button:hover {
+    background-color: #3da53d;
+  }

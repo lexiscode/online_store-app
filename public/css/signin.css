@@ -1,0 +1,66 @@
+.s-container-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.s-card {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.s-card-header {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 18px;
+}
+
+.s-card-body {
+    padding: 20px;
+}
+
+/* Form styles */
+.s-form-group {
+    margin-bottom: 20px;
+}
+
+.s-label {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.s-form-control {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.s-btn-register {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.s-btn-register:hover {
+    background-color: #7e7e80;
+}
