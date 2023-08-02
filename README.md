@@ -18,6 +18,7 @@ A online-shop (ecommerce or e-shop) can be described as a sales and communicatio
 
 For the project demo, you can look at the video below:
 
+https://github.com/lexiscode/online_store-app/assets/42210784/fb85d85f-737a-48b6-8eec-2ef14bfac280
 
 
 ## Installation
