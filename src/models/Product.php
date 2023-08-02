@@ -199,8 +199,6 @@ class Product
                 FROM products 
                 WHERE name LIKE :search_query";
         
-        // var_dump($searchQuery);
-        // echo $sql;
         $stmt = $conn->prepare($sql);
         $stmt->bindValue(':search_query', "%$searchQuery%", PDO::PARAM_STR);
         $stmt->execute();
