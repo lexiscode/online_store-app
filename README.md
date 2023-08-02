@@ -31,7 +31,7 @@ https://github.com/lexiscode/online_store-app/assets/42210784/fb85d85f-737a-48b6
 6. Open a browser and go to URL http://localhost/phpmyadmin/
 7. Then, click on the "Databases" tab.
 8. Create a database naming “web_shop” and then click on the "Import" tab.
-9. Click on "browse file" and select “web_shop.sql” file which is inside this project repo directory.
+9. Click on "browse file" and select “web_shop.sql” file which is inside this project repo "db" directory.
 10. Click on "Go". 
 
 
