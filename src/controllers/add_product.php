@@ -1,15 +1,5 @@
 <?php
 
-/*
-require "./models/DbConnect.php";
-require "./models/Product.php";
-require "./models/FormValidate.php";
-require "./models/Category.php";
-require "./models/Auth.php";
-
-require "./models/Cart.php"; 
-require "./models/User.php";
-*/
 
 use OnlineStoreApp\Models\Database\DbConnect;
 use OnlineStoreApp\Models\Product;

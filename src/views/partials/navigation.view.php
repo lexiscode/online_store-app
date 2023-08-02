@@ -48,7 +48,7 @@
                 ?>
                 <a href="?action=logout">Logout</a>
 
-            <!-- display this below if a user is non-logged in -->
+            <!-- display this below if a user is not logged-in -->
             <?php else: ?>
                 
                 <a href="signup">Registration</a>
