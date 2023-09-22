@@ -2,7 +2,7 @@
 
 namespace OnlineStoreApp\Models\Database;
 use PDO;
-
+use PDOException;
 /**
  * DbConnect
  * 
@@ -15,10 +15,10 @@ class DbConnect {
 
     private function __construct() {
         // Private constructor to prevent direct instantiation
-        $host = 'localhost';
-        $username = 'root';
-        $password = '';
-        $database = 'web_shop';
+        $host = "localhost";
+        $username = "root";
+        $password = "";
+        $database = "web_shop";
 
         // Create the database connection using PDO
         try {

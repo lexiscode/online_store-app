@@ -8,7 +8,7 @@ use OnlineStoreApp\Models\Cart;
 use OnlineStoreApp\Models\User;
 
 // Initialize the session.
-session_start();
+//session_start();
 
 
 // General: Error handler function
