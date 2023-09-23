@@ -15,10 +15,10 @@ class DbConnect {
 
     private function __construct() {
         // Private constructor to prevent direct instantiation
-        $host = "localhost";
-        $username = "root";
-        $password = "";
-        $database = "web_shop";
+        $host = $_ENV['MARIADB_HOST'];
+        $username = $_ENV['MARIADB_DB_USER'];
+        $password = $_ENV['MARIADB_DB_USER_PASSWORD'];
+        $database = $_ENV['MARIADB_DB_NAME'];
 
         // Create the database connection using PDO
         try {

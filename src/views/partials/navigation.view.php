@@ -3,7 +3,8 @@
 
     <div class="flex">
 
-        <a href="/online_store-app" class="logo" style="font-family: Oswald">🍔Lexis-Foodies</a>
+        <!--Default before implementing docker: href="/online_store-app"-->
+        <a href="/" class="logo" style="font-family: Oswald">🍔Lexis-Foodies</a>
 
         <form action="product_search" method="GET">
             <input type="text" name="search" placeholder="  Search products..." value="<?= $searchQuery ?? ''; ?>" style="border-radius: 10px;">

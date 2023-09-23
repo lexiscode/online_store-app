@@ -4,12 +4,13 @@
     <div class="footer-content">
       <div class="footer-logo">
 
-         <a href="/online_store-app" class="logo" style="font-family: Oswald; color: white"><h1>🍔Lexis-Foodies</h1></a>
+        <!--Default before implementing docker: href="/online_store-app"-->
+         <a href="/" class="logo" style="font-family: Oswald; color: white"><h1>🍔Lexis-Foodies</h1></a>
       
         </div>
       <div class="footer-links">
         <ul>
-          <li><a href="/online_store-app">Home</a></li>
+          <li><a href="/">Home</a></li> <!--Default before implementing docker: href="/online_store-app"-->
           <?php 
           use OnlineStoreApp\Models\Auth;
           

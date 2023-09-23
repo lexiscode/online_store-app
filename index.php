@@ -1,7 +1,11 @@
 <?php
 
+use Dotenv\Dotenv;
+
 require "vendor/autoload.php";
 
+$dotenv = Dotenv::createImmutable(__DIR__ . "/");
+$dotenv->safeLoad();
 
 // Define the route mings
 $routes = [
@@ -35,7 +39,11 @@ $path = '/' . trim(str_replace($base_path, '', $request_path), '/');
 if (isset($routes[$path])) {
 
     // Include the file that modifies the include path
-    require __DIR__ . '/modify_include_path.php';
+    // You can check the PHP include path settings by using the get_include_path() function. 
+    // Ensures the src directory is included in the PHP include path
+    $includePath = __DIR__ . '/src' . PATH_SEPARATOR . get_include_path();
+
+    set_include_path($includePath);
 
     // If the path exists, include the corresponding controller file
     include $routes[$path];
