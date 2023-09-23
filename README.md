@@ -14,7 +14,19 @@ The Online Store Application is an e-commerce web application that allows users 
 - **Order History**: The application provides a page where users can view all successfully checked-out orders.
 - **Cart Functionality**: Inside the cart page, users can update the quantities of items to be purchased, which automatically modifies the total price before checkout. A successful checkout refreshes the cart to zero (empty).
 
-## Installation
+## Installation (using Docker) 1
+
+To set up the Online Store Application, follow these steps:
+
+1. Ensure PHP and Composer installed on your system.
+2. Clone the repository to your local machine using HTTPS or SSH.
+3. Ensure that docker engine is up and running by opening the application and be logged in.
+3. Inside your bash terminal, navigation to where the project repository is and then run this command `docker-compose up -d --build`
+4. Then run `docker exec -it online_shop_mariadb bash`.
+5. Then run `mariadb -u root -p` and then type "root" as the password and hit Enter!
+6. You should see something like "Welcome to the MariaDB monitor", that means its a success. Now you can go to your browser and enter the url `http://localhost:8000` to view the application
+
+## Installation (using phpMyAdmin) 2
 
 To set up the Online Store Application, follow these steps:
 
